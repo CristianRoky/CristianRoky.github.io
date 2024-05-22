@@ -1,0 +1,324 @@
+{
+    "type": "FeatureCollection",
+    "name": "Kantor_Pemerintahan",
+    "crs": {
+        "type": "name",
+        "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+        }
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Kantor Desa Sungai Jaga B",
+                "description": "Desa: Sungai Jaga B<br>Kode Pos: 79272",
+                "timestamp": null,
+                "begin": null,
+                "end": null,
+                "altitudeMode": null,
+                "tessellate": -1,
+                "extrude": 0,
+                "visibility": -1,
+                "drawOrder": null,
+                "icon": null,
+                "Desa": "Sungai Jaga B",
+                "Kode_Pos": "79272"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    108.9317947,
+                    0.6079143,
+                    0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Kantor Desa Sungai Jaga A",
+                "description": "Desa: Sungai Jaga A<br>Kode Pos: 79271",
+                "timestamp": null,
+                "begin": null,
+                "end": null,
+                "altitudeMode": null,
+                "tessellate": -1,
+                "extrude": 0,
+                "visibility": -1,
+                "drawOrder": null,
+                "icon": null,
+                "Desa": "Sungai Jaga A",
+                "Kode_Pos": "79271"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    108.9311419,
+                    0.5933509,
+                    0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Kantor Desa Sungai Duri",
+                "description": "Desa: Sungai Duri<br>Kode Pos: 79271",
+                "timestamp": null,
+                "begin": null,
+                "end": null,
+                "altitudeMode": null,
+                "tessellate": -1,
+                "extrude": 0,
+                "visibility": -1,
+                "drawOrder": null,
+                "icon": null,
+                "Desa": "Sungai Duri",
+                "Kode_Pos": "79271"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    108.9299383,
+                    0.563998,
+                    0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Kantor Desa Sungai Pangkalan I",
+                "description": "Desa: Sungai Pangkalan I<br>Kode Pos: 79271",
+                "timestamp": null,
+                "begin": null,
+                "end": null,
+                "altitudeMode": null,
+                "tessellate": -1,
+                "extrude": 0,
+                "visibility": -1,
+                "drawOrder": null,
+                "icon": null,
+                "Desa": "Sungai Pangkalan I",
+                "Kode_Pos": "79271"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    108.9353281,
+                    0.6188517,
+                    0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Kantor desa sungai pangkalan II",
+                "description": "Desa: Sungai Pangkalan II<br>Kode Pos: 79271",
+                "timestamp": null,
+                "begin": null,
+                "end": null,
+                "altitudeMode": null,
+                "tessellate": -1,
+                "extrude": 0,
+                "visibility": -1,
+                "drawOrder": null,
+                "icon": null,
+                "Desa": "Sungai Pangkalan II",
+                "Kode_Pos": "79271"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    108.9378702,
+                    0.6314734,
+                    0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Kantor Camat Sungai Raya",
+                "description": "Desa: Sungai Duri<br>Kode Pos: 79271",
+                "timestamp": null,
+                "begin": null,
+                "end": null,
+                "altitudeMode": null,
+                "tessellate": -1,
+                "extrude": 0,
+                "visibility": -1,
+                "drawOrder": null,
+                "icon": null,
+                "Desa": "Sungai Duri",
+                "Kode_Pos": "79271"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    108.9298018,
+                    0.5771872,
+                    0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Upt Dinas Pendidikan Dan Kebudayaan Sungai Raya",
+                "description": "Desa: Sungai Duri<br>Kode Pos: 79271",
+                "timestamp": null,
+                "begin": null,
+                "end": null,
+                "altitudeMode": null,
+                "tessellate": -1,
+                "extrude": 0,
+                "visibility": -1,
+                "drawOrder": null,
+                "icon": null,
+                "Desa": "Sungai Duri",
+                "Kode_Pos": "79271"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    108.930068,
+                    0.5661824,
+                    0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Kantor Urusan Agama Kec. Sungai Raya",
+                "description": "Desa: Sungai Duri<br>Kode Pos: 79271",
+                "timestamp": null,
+                "begin": null,
+                "end": null,
+                "altitudeMode": null,
+                "tessellate": -1,
+                "extrude": 0,
+                "visibility": -1,
+                "drawOrder": null,
+                "icon": null,
+                "Desa": "Sungai Duri",
+                "Kode_Pos": "79271"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    108.9296321,
+                    0.5764503,
+                    0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Kantor Pos Sungai Duri",
+                "description": "Desa: Sungai Duri<br>Kode Pos: 79271",
+                "timestamp": null,
+                "begin": null,
+                "end": null,
+                "altitudeMode": null,
+                "tessellate": -1,
+                "extrude": 0,
+                "visibility": -1,
+                "drawOrder": null,
+                "icon": null,
+                "Desa": "Sungai Duri",
+                "Kode_Pos": "79271"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    108.9293341,
+                    0.5617394,
+                    0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Kantor Samsat Sungai Duri",
+                "description": "Desa: Sungai Duri<br>Kode Pos: 79271",
+                "timestamp": null,
+                "begin": null,
+                "end": null,
+                "altitudeMode": null,
+                "tessellate": -1,
+                "extrude": 0,
+                "visibility": -1,
+                "drawOrder": null,
+                "icon": null,
+                "Desa": "Sungai Duri",
+                "Kode_Pos": "79271"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    108.9315753,
+                    0.5979364,
+                    0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Polsek Sungai Raya",
+                "description": "Desa: Sungai Duri<br>Kode Pos: 79271",
+                "timestamp": null,
+                "begin": null,
+                "end": null,
+                "altitudeMode": null,
+                "tessellate": -1,
+                "extrude": 0,
+                "visibility": -1,
+                "drawOrder": null,
+                "icon": null,
+                "Desa": "Sungai Duri",
+                "Kode_Pos": "79271"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    108.9274328,
+                    0.5592672,
+                    0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "KORAMIL SUNGAI DURI",
+                "description": "Desa: Sungai Duri<br>Kode Pos: 79271",
+                "timestamp": null,
+                "begin": null,
+                "end": null,
+                "altitudeMode": null,
+                "tessellate": -1,
+                "extrude": 0,
+                "visibility": -1,
+                "drawOrder": null,
+                "icon": null,
+                "Desa": "Sungai Duri",
+                "Kode_Pos": "79271"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    108.9303707,
+                    0.5637093,
+                    0
+                ]
+            }
+        }
+    ]
+}
