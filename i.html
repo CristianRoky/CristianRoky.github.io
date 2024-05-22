@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List API Data GeoSpasial Kecamatan Sungai Raya, Bengkayang</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #1a1a2e;
+            color: #eaeaea;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #16213e;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #eaeaea;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th,
+        td {
+            padding: 12px;
+            border-bottom: 1px solid #333;
+            text-align: left;
+            color: #eaeaea;
+        }
+
+        th {
+            background-color: #16213f;
+            color: #f2f2f2;
+        }
+
+        tr:hover {
+            background-color: #2e3b55;
+        }
+
+        a {
+            color: #f2f2f2;
+            text-decoration: none;
+            text-decoration: underline;
+        }
+
+        .btn {
+            padding: 8px 16px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background-color: #0056b3;
+        }
+
+        #th {
+            text-align: center;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 10px;
+            }
+
+            th,
+            td {
+                padding: 8px;
+            }
+
+            .btn {
+                padding: 6px 12px;
+            }
+        }
+
+        @media (max-width: 480px) {
+
+            table,
+            th,
+            td {
+                display: block;
+                width: 100%;
+            }
+
+            th,
+            td {
+                text-align: right;
+                padding: 10px;
+            }
+
+            th {
+                text-align: center;
+                background-color: #16213e;
+                color: #eaeaea;
+            }
+
+            td {
+                text-align: left;
+                border-bottom: none;
+                border-top: 1px solid #333;
+            }
+
+            tr:hover {
+                background-color: transparent;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <h3 id="th">List API Data GeoSpasial Kecamatan Sungai Raya, Bengkayang</h3>
+
+        <table>
+            <tr>
+                <th>Nama Sub Bidang</th>
+                <th>URL GeoJSON</th>
+                <th id="th">Aksi</th>
+            </tr>
+            <tr>
+                <td>Kantor Pemerintahan</td>
+                <td><a href="https://sungairaya.pspig.online/api/geojson/Kantor_Pemerintahan.geojson"
+                        target="_blank">https://sungairaya.pspig.online/api/geojson/Kantor_Pemerintahan.geojson</a></td>
+                <td><button class="btn"
+                        onclick="openGeoJSONEditor('https://sungairaya.pspig.online/api/geojson/Kantor_Pemerintahan.geojson')">Open
+                        in GeoJSON.io</button></td>
+            </tr>
+            <tr>
+                <td>Sekolah Dasar Negeri</td>
+                <td><a href="https://sungairaya.pspig.online/api/geojson/SDN.geojson"
+                        target="_blank">https://sungairaya.pspig.online/api/geojson/SDN.geojson</a></td>
+                <td><button class="btn"
+                        onclick="openGeoJSONEditor('https://sungairaya.pspig.online/api/geojson/SDN.geojson')">Open in
+                        GeoJSON.io</button></td>
+            </tr>
+            <tr>
+                <td>Sekolah Dasar Swasta</td>
+                <td><a href="https://sungairaya.pspig.online/api/geojson/SDS.geojson"
+                        target="_blank">https://sungairaya.pspig.online/api/geojson/SDS.geojson</a></td>
+                <td><button class="btn"
+                        onclick="openGeoJSONEditor('https://sungairaya.pspig.online/api/geojson/SDS.geojson')">Open in
+                        GeoJSON.io</button></td>
+            </tr>
+            <tr>
+                <td>Sekolah Menengah Pertama Negeri</td>
+                <td><a href="https://sungairaya.pspig.online/api/geojson/SMPN.geojson"
+                        target="_blank">https://sungairaya.pspig.online/api/geojson/SMPN.geojson</a></td>
+                <td><button class="btn"
+                        onclick="openGeoJSONEditor('https://sungairaya.pspig.online/api/geojson/SMPN.geojson')">Open in
+                        GeoJSON.io</button></td>
+            </tr>
+            <tr>
+                <td>Sekolah Menengah Pertama Swasta</td>
+                <td><a href="https://sungairaya.pspig.online/api/geojson/SMPS.geojson"
+                        target="_blank">https://sungairaya.pspig.online/api/geojson/SMPS.geojson</a></td>
+                <td><button class="btn"
+                        onclick="openGeoJSONEditor('https://sungairaya.pspig.online/api/geojson/SMPS.geojson')">Open in
+                        GeoJSON.io</button></td>
+            </tr>
+            <tr>
+                <td>Sekolah Menengah Atas Negeri</td>
+                <td><a href="https://sungairaya.pspig.online/api/geojson/SMAN.geojson"
+                        target="_blank">https://sungairaya.pspig.online/api/geojson/SMAN.geojson</a></td>
+                <td><button class="btn"
+                        onclick="openGeoJSONEditor('https://sungairaya.pspig.online/api/geojson/SMAN.geojson')">Open in
+                        GeoJSON.io</button></td>
+            </tr>
+            <tr>
+                <td>Sekolah Menengah Atas Swasta</td>
+                <td><a href="https://sungairaya.pspig.online/api/geojson/SMAS.geojson"
+                        target="_blank">https://sungairaya.pspig.online/api/geojson/SMAS.geojson</a></td>
+                <td><button class="btn"
+                        onclick="openGeoJSONEditor('https://sungairaya.pspig.online/api/geojson/SMAS.geojson')">Open in
+                        GeoJSON.io</button></td>
+            </tr>
+            <tr>
+                <td>Sekolah Menengah Kejuruan</td>
+                <td><a href="https://sungairaya.pspig.online/api/geojson/SMK.geojson"
+                        target="_blank">https://sungairaya.pspig.online/api/geojson/SMK.geojson</a></td>
+                <td><button class="btn"
+                        onclick="openGeoJSONEditor('https://sungairaya.pspig.online/api/geojson/SMK.geojson')">Open in
+                        GeoJSON.io</button></td>
+            </tr>
+            <tr>
+                <td>Puskesmas</td>
+                <td><a href="https://sungairaya.pspig.online/api/geojson/Puskesmas.geojson"
+                        target="_blank">https://sungairaya.pspig.online/api/geojson/Puskesmas.geojson</a></td>
+                <td><button class="btn"
+                        onclick="openGeoJSONEditor('https://sungairaya.pspig.online/api/geojson/Puskesmas.geojson')">Open
+                        in GeoJSON.io</button></td>
+            </tr>
+            <tr>
+                <td>Praktik Bidan</td>
+                <td><a href="https://sungairaya.pspig.online/api/geojson/Praktik_Bidan.geojson"
+                        target="_blank">https://sungairaya.pspig.online/api/geojson/Praktik_Bidan.geojson</a></td>
+                <td><button class="btn"
+                        onclick="openGeoJSONEditor('https://sungairaya.pspig.online/api/geojson/Praktik_Bidan.geojson')">Open
+                        in GeoJSON.io</button></td>
+            </tr>
+            <tr>
+                <td>Apotek</td>
+                <td><a href="https://sungairaya.pspig.online/api/geojson/Apotek.geojson"
+                        target="_blank">https://sungairaya.pspig.online/api/geojson/Apotek.geojson</a></td>
+                <td><button class="btn"
+                        onclick="openGeoJSONEditor('https://sungairaya.pspig.online/api/geojson/Apotek.geojson')">Open
+                        in GeoJSON.io</button></td>
+            </tr>
+        </table>
+        </table>
+    </div>
+
+    <script>
+        async function openGeoJSONEditor(geojsonURL) {
+            try {
+                const response = await fetch(geojsonURL);
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                const geojsonData = await response.json();
+                const geojsonEncoded = encodeURIComponent(JSON.stringify(geojsonData));
+                const geojsonIOURL = 'http://geojson.io/#data=data:application/json,' + geojsonEncoded;
+                window.open(geojsonIOURL, '_blank');
+            } catch (error) {
+                console.error('Error fetching or opening GeoJSON:', error);
+            }
+        }
+    </script>
+
+</body>
+
+</html>
